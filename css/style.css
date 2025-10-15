@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen */
     /* background_imagen*/
-    /* background: #000000; Fallback color */
+    /* background: #000000; Fallback color  #209cee   #f5f6fa  #00c4a7  */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #FF6F61;
+    color: #00c4a7 ;
     outline: none;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #FF6F61;
+    color: #00c4a7;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -95,7 +95,7 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
@@ -219,7 +219,7 @@ a:focus {
         text-align: center;
         font-size: 18px;
         color: #222222;
-        background: #FF6F61;
+        background: #00c4a7;
     }
     
     .sidebar .sidebar-footer a:last-child {
@@ -227,7 +227,7 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #FF6F61;
+        color: #00c4a7;
         background: #ffffff;
     }
     
@@ -296,7 +296,7 @@ a:focus {
 }
 
 .back-to-top i:hover {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .back-to-top {
@@ -321,6 +321,11 @@ a:focus {
 .header {
     position: relative;
     background: #ffffff;
+    border-radius: 5% 5% 0% 0%;
+    -webkit-border-radius: 5% 5% 0% 0%;
+    -moz-border-radius: 5% 5% 0% 0%;
+    -ms-border-radius: 5% 5% 0% 0%;
+    -o-border-radius: 5% 5% 0% 0%;
 }
 
 .header .content-inner {
@@ -330,7 +335,7 @@ a:focus {
 }
 
 .header p {
-    color: #FF6F61;
+    color: #00c4a7;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -368,7 +373,7 @@ a:focus {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #FF6F61;
+    color: #00c4a7;
     font-size: 20px;
     background: #222222;
     border-radius: 0;
@@ -376,7 +381,7 @@ a:focus {
 
 .large-btn .btn:last-child {
     color: #222222;
-    background: #FF6F61;
+    background: #00c4a7;
 }
 
 .large-btn .btn i {
@@ -425,7 +430,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: #FF6F61;
+    background: #00c4a7;
 }
 
 
@@ -454,12 +459,12 @@ a:focus {
 .about .btn {
     border-radius: 0;
     color: #222222;
-    background: #FF6F61;
+    background: #00c4a7;
     transition: all .3s;
 }
 
 .about .btn:hover {
-    color: #FF6F61;
+    color: #00c4a7;
     background: #AAAAAA;
 }
 
@@ -484,14 +489,14 @@ a:focus {
 
 .about .progress {
     height: 5px;
-    border: 1px solid #FF6F61;
+    border: 1px solid #00c4a7;
     border-radius: 0;
     background: #ffffff;
 }
 
 .about .progress .progress-bar {
     width: 1px;
-    background: #FF6F61;
+    background: #00c4a7;
     border-radius: 0;
     transition: 1s;
 }
@@ -510,8 +515,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    border-left: 1px solid #00c4a7;
+    border-bottom: 1px solid #00c4a7;
 }
 
 .education .col-md-6:first-child .edu-col {
@@ -548,14 +553,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #FF6F61;
+    background: #00c4a7;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .education .edu-col span i {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .education .edu-col h3 {
@@ -582,8 +587,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    border-left: 1px solid #00c4a7;
+    border-bottom: 1px solid #00c4a7;
 }
 
 .experience .col-md-6:first-child .exp-col {
@@ -620,14 +625,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #FF6F61;
+    background: #00c4a7;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .experience .exp-col span i {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .experience .exp-col h3 {
@@ -672,7 +677,7 @@ a:focus {
 
 .service .srv-col i {
     font-size: 30px;
-    color: #FF6F61;
+    color: #00c4a7;
     margin-bottom: 15px;
 }
 
@@ -748,7 +753,7 @@ a:focus {
 }
 
 .review .review-text .ratting i {
-    color: #FF6F61;
+    color: #00c4a7;
     font-size: 14px;
 }
 
@@ -799,7 +804,7 @@ a:focus {
 .review-slider .slick-prev:focus::before,
 .review-slider .slick-next:hover::before,
 .review-slider .slick-next:focus::before {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .review-slider .slick-prev::before,
@@ -828,7 +833,7 @@ a:focus {
 }
 
 .review-slider .slick-dots li.slick-active button:before {
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .review-slider.slick-slider {
@@ -860,7 +865,7 @@ a:focus {
 
 .contact .contact-info p i {
     width: 25px;
-    color: #FF6F61;
+    color: #00c4a7;
 }
 
 .contact .contact-info p a {
@@ -868,7 +873,7 @@ a:focus {
 }
 
 .contact .contact-info p a:hover {
-    color: #FF6F61;
+    color: #00c4a7;
     text-decoration: none;
 }
 
@@ -881,7 +886,7 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #FF6F61;
+    background: #00c4a7;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
@@ -893,7 +898,7 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #FF6F61;
+    color: #00c4a7;
     background: #222222;
 }
 
@@ -909,18 +914,18 @@ a:focus {
 
 .contact .form .form-control:focus {
     box-shadow: none;
-    border-color: #FF6F61;
+    border-color: #00c4a7;
 }
 
 .contact .form .btn {
     color: #222222;
-    background: #FF6F61;
+    background: #00c4a7;
     border-radius: 0;
     transition: all .3s;
 }
 
 .contact .form .btn:hover {
-    color: #FF6F61;
+    color: #00c4a7;
     background: #222222;
 }
 
@@ -952,7 +957,7 @@ a:focus {
 }
 
 .footer a {
-    color: #FF6F61;
+    color: #00c4a7;
     font-weight: 600;
 }
 
