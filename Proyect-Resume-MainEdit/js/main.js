@@ -51,18 +51,18 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
-    
-    
+
+
     // Review slider
-    $('.review-slider').slick({
-        autoplay: true,
-        dots: false,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-    
-    
+    // $('.review-slider').slick({
+    //     autoplay: true,
+    //     dots: false,
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // });
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {

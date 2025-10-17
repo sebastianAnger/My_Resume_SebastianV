@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen */
     /* background_imagen*/
-    /* background: #000000; Fallback color  #209cee   #f5f6fa  #00c4a7  */
+    /* background: #000000; Fallback color  #209cee  #f5f6fa  #209cee #65c1f6 #00c4a7*/
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #00c4a7 ;
+    color: #209cee ;
     outline: none;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #00c4a7;
+    color: #209cee;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -95,7 +95,7 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
@@ -123,7 +123,6 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        /*background: #000000;  Fallback color */
         z-index: 1;
     }
     
@@ -219,7 +218,7 @@ a:focus {
         text-align: center;
         font-size: 18px;
         color: #222222;
-        background: #00c4a7;
+        background: #209cee;
     }
     
     .sidebar .sidebar-footer a:last-child {
@@ -227,7 +226,7 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #00c4a7;
+        color: #209cee;
         background: #ffffff;
     }
     
@@ -296,7 +295,7 @@ a:focus {
 }
 
 .back-to-top i:hover {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .back-to-top {
@@ -330,12 +329,12 @@ a:focus {
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(../img/profile.png) right bottom no-repeat;
+    background: url(../img/about_cv.png) right bottom no-repeat;
     background-size: contain;
 }
 
 .header p {
-    color: #00c4a7;
+    color: #209cee;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -373,7 +372,7 @@ a:focus {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #00c4a7;
+    color: #209cee;
     font-size: 20px;
     background: #222222;
     border-radius: 0;
@@ -381,7 +380,7 @@ a:focus {
 
 .large-btn .btn:last-child {
     color: #222222;
-    background: #00c4a7;
+    background: #209cee;
 }
 
 .large-btn .btn i {
@@ -430,7 +429,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: #00c4a7;
+    background: #209cee;
 }
 
 
@@ -448,6 +447,11 @@ a:focus {
 .about img {
     width: 100%;
     height: auto;
+    border-radius: 6%;
+    -webkit-border-radius: 6%;
+    -moz-border-radius: 6%;
+    -ms-border-radius: 6%;
+    -o-border-radius: 6%;
 }
 
 @media(max-width: 767.98px) {
@@ -459,12 +463,12 @@ a:focus {
 .about .btn {
     border-radius: 0;
     color: #222222;
-    background: #00c4a7;
+    background: #209cee;
     transition: all .3s;
 }
 
 .about .btn:hover {
-    color: #00c4a7;
+    color: #209cee;
     background: #AAAAAA;
 }
 
@@ -489,14 +493,14 @@ a:focus {
 
 .about .progress {
     height: 5px;
-    border: 1px solid #00c4a7;
+    border: 1px solid #209cee;
     border-radius: 0;
     background: #ffffff;
 }
 
 .about .progress .progress-bar {
     width: 1px;
-    background: #00c4a7;
+    background: #209cee;
     border-radius: 0;
     transition: 1s;
 }
@@ -515,8 +519,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #00c4a7;
-    border-bottom: 1px solid #00c4a7;
+    border-left: 1px solid #209cee;
+    border-bottom: 1px solid #209cee;
 }
 
 .education .col-md-6:first-child .edu-col {
@@ -553,14 +557,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #00c4a7;
+    background: #209cee;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .education .edu-col span i {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .education .edu-col h3 {
@@ -587,8 +591,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #00c4a7;
-    border-bottom: 1px solid #00c4a7;
+    border-left: 1px solid #209cee;
+    border-bottom: 1px solid #209cee;
 }
 
 .experience .col-md-6:first-child .exp-col {
@@ -625,14 +629,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #00c4a7;
+    background: #209cee;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .experience .exp-col span i {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .experience .exp-col h3 {
@@ -677,7 +681,7 @@ a:focus {
 
 .service .srv-col i {
     font-size: 30px;
-    color: #00c4a7;
+    color: #209cee;
     margin-bottom: 15px;
 }
 
@@ -716,12 +720,12 @@ a:focus {
 .review .content-inner {
     position: relative;
     padding: 60px 30px;
-    background: url(../img/quote.png) right bottom no-repeat;
+    /* background: url(../img/quote.png) right bottom no-repeat; */
 }
 
 .review .review-text p {
-    font-size: 18px;
-    font-style: italic;
+    font-size: 16px;
+    font-style: normal; /*italic*/
 }
 
 .review .review-img {
@@ -730,8 +734,8 @@ a:focus {
 }
 
 .review .review-img img {
-    width: 80px; 
-    height: 80px; 
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     margin-right: 15px;
 }
@@ -753,7 +757,7 @@ a:focus {
 }
 
 .review .review-text .ratting i {
-    color: #00c4a7;
+    color: #209cee;
     font-size: 14px;
 }
 
@@ -804,7 +808,7 @@ a:focus {
 .review-slider .slick-prev:focus::before,
 .review-slider .slick-next:hover::before,
 .review-slider .slick-next:focus::before {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .review-slider .slick-prev::before,
@@ -833,7 +837,7 @@ a:focus {
 }
 
 .review-slider .slick-dots li.slick-active button:before {
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .review-slider.slick-slider {
@@ -865,7 +869,7 @@ a:focus {
 
 .contact .contact-info p i {
     width: 25px;
-    color: #00c4a7;
+    color: #209cee;
 }
 
 .contact .contact-info p a {
@@ -873,12 +877,12 @@ a:focus {
 }
 
 .contact .contact-info p a:hover {
-    color: #00c4a7;
+    color: #209cee;
     text-decoration: none;
 }
 
 .contact .social {
-    font-size: 0;
+    font-size: 2;
 }
 
 .contact .social a {
@@ -886,7 +890,7 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #00c4a7;
+    background: #209cee;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
@@ -898,7 +902,7 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #00c4a7;
+    color: #209cee;
     background: #222222;
 }
 
@@ -914,18 +918,18 @@ a:focus {
 
 .contact .form .form-control:focus {
     box-shadow: none;
-    border-color: #00c4a7;
+    border-color: #209cee;
 }
 
 .contact .form .btn {
     color: #222222;
-    background: #00c4a7;
+    background: #209cee;
     border-radius: 0;
     transition: all .3s;
 }
 
 .contact .form .btn:hover {
-    color: #00c4a7;
+    color: #209cee;
     background: #222222;
 }
 
@@ -965,3 +969,7 @@ a:focus {
     color: #FFFFFF;
 }
 
+#megeek{
+    width:70%;
+    height:80%;
+}
