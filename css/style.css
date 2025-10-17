@@ -328,8 +328,8 @@ a:focus {
 }
 
 .header .content-inner {
-    padding: 100px 30px;
-    background: url(../img/about_cv.png) right bottom no-repeat;
+    padding: 80px 40px;
+    background: url(../img/Geekstyle.png) right bottom no-repeat;
     background-size: contain;
 }
 
