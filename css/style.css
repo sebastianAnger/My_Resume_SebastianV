@@ -973,3 +973,11 @@ a:focus {
     width:70%;
     height:80%;
 }
+
+#english {
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    right: 0px;
+}
