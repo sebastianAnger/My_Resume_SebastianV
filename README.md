@@ -1,7 +1,7 @@
 # ¡Hola! Soy Sebastian Vasquez 👋
 
 <p align="center">
-  <img src="https://vignette.wikia.nocookie.net/line/images/b/bb/2015-05-14_CHIBI_LINE_Characters_11.gif/revision/latest?cb=20150514211130" width="150">
+  <img src="img/Geek style01.png" width="350">
 </p>
 
 ### 🚀 Sobre mí
@@ -61,8 +61,8 @@ Mi perfil no solo es técnico; me enfoco en el valor humano y la eficiencia oper
 ### 📫 Conecta conmigo
 
 <p align="left">
-<a href="[TU_LINK_LINKEDIN]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="mailto:[TU_EMAIL]" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" height="30" width="30" /></a>
+<a href="www.linkedin.com/in/sebastian-vasquezc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+<a href="mailto:sebastiananger.95@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" height="30" width="30" /></a>
 </p>
 
 ---
