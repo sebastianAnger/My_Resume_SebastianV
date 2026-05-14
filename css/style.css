@@ -440,7 +440,6 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    
 }
 
 
@@ -709,6 +708,7 @@ a:focus {
     margin: 0;
 }
 
+
 /**********************************/
 /*********** Review CSS ***********/
 /**********************************/
@@ -972,4 +972,12 @@ a:focus {
 #megeek{
     width:70%;
     height:80%;
+}
+
+#english {
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    right: 0px;
 }

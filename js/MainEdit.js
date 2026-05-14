@@ -76,20 +76,3 @@
         return false;
     });
 })(jQuery);
-
-
-//Download
-document.getElementById('downloadbtn').addEventListener('click', function(e) {
-    e.preventDefault();
-    generatePDF();
-});
-
-async function generatePDF() {
-
-            var doc = new jsPDF('l', 'pt');
-
-                doc.toDataURL("C:\laragon\www\PBECV\Resume_SVC\Docu.pdf");
-            doc.save("Document.pdf");
-
-            //End of downloading
-}
