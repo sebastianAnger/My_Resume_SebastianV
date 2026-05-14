@@ -844,6 +844,93 @@ a:focus {
     margin-bottom: 0;
 }
 
+/****/
+/**********************************/
+/********* Certificate CSS *********/
+/**********************************/
+.certi {
+    position: relative;
+    padding: 60px 30px;
+    background: #ffffff;
+}
+
+.certi .exp-col {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    border-left: 1px solid #209cee;
+    border-bottom: 1px solid #209cee;
+}
+
+.certi .col-md-12:first-child .exp-col {
+    padding-top: 0;
+}
+
+.certi .col-md-12:last-child .exp-col {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .certi .col-md-12:nth-child(-n+2) .exp-col {
+        padding-top: 0;
+    }
+
+    .certi .col-md-6:last-child .exp-col,
+    .certi .col-md-6:nth-last-child(2) .exp-col {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+.certi .exp-col span {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.certi .exp-col span::before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #209cee;
+    top: 5px;
+    left: -26px;
+    border-radius: 5px;
+}
+
+.certi .exp-col span i {
+    color: #209cee;
+}
+
+.certi .exp-col h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.certi .exp-col h4 {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.certi .exp-col h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.certi .exp-col p {
+    margin: 0;
+}
+
+
 
 /**********************************/
 /*********** Contact CSS ***********/
