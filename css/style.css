@@ -432,6 +432,24 @@ a:focus {
     background: #209cee;
 }
 
+.content-header2 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    /* padding-bottom: 10px; */
+}
+
+.content-header2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 180px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #209cee;
+}
+
 
 /**********************************/
 /*********** About CSS ************/
@@ -931,7 +949,24 @@ a:focus {
     margin-bottom: 5px;
 }
 
+.certi .certi-col {
+    position: top;
+    width: 100%;
+    /* margin-right: 35px; */
+    /* margin-top: 15px; */
+    /* margin-bottom: 0px; */
+    color: #209cee;
+}
 
+.certi .certi-col h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    /* margin-bottom: 10px; */
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #000000;
+}
 
 /**********************************/
 /*********** Contact CSS ***********/
