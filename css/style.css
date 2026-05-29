@@ -1,16 +1,14 @@
 /**********************************/
-/**********************************/
 /********** General CSS ***********/
-/**********************************/
 /**********************************/
 body {
     color: #222222;
     /* background_imagen*/
-    background-image: url('../img/Back.jpg'); /* Asegúrate de usar 'url()' para especificar la imagen */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-image: url('../img/Back.jpg');
+    background-size: cover; /* Ajusta la imagen*/
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen */
-    /* background_imagen*/
+    background-position: center;
+    /* background colors */
     /* background: #000000; Fallback color  #209cee  #f5f6fa  #209cee #65c1f6 #00c4a7*/
     font-family: 'Open Sans', sans-serif;
 }
@@ -32,7 +30,7 @@ a:focus {
     box-shadow: none;
 }
 
-
+/*#region Layout with Sidebar */
 /**********************************/
 /****** Layout with Sidebar *******/
 /**********************************/
@@ -271,8 +269,9 @@ a:focus {
         padding: 15px;
     }
 }
+/*#endregion*/
 
-
+/*#region Back to TOP CSS */
 /**********************************/
 /******** Back to Top CSS *********/
 /**********************************/
@@ -312,8 +311,9 @@ a:focus {
     0% { transform: translateY(0); }
     100% { transform: translateY(-15px); }
 }
+/*#endregion*/
 
-
+/*#region Header CSS */
 /**********************************/
 /*********** Header CSS ***********/
 /**********************************/
@@ -401,8 +401,9 @@ a:focus {
     width: 100%;
     background: rgba(255, 255, 255, .1);
 }
+/*#endregion*/
 
-
+/*#region Content Header CSS */
 /**********************************/
 /******* Content Header CSS *******/
 /**********************************/
@@ -449,8 +450,9 @@ a:focus {
     left: 0;
     background: #209cee;
 }
+/*#endregion*/
 
-
+/*#region About CSS */
 /**********************************/
 /*********** About CSS ************/
 /**********************************/
@@ -521,8 +523,9 @@ a:focus {
     border-radius: 0;
     transition: 1s;
 }
+/*#endregion*/
 
-
+/*#region Education CSS */
 /**********************************/
 /********* Education CSS **********/
 /**********************************/
@@ -593,8 +596,9 @@ a:focus {
 .education .edu-col p {
     margin: 0;
 }
+/*#endregion*/
 
-
+/*#region Experience CSS */
 /**********************************/
 /********* Experience CSS *********/
 /**********************************/
@@ -679,8 +683,9 @@ a:focus {
 .experience .exp-col p {
     margin: 0;
 }
+/*#endregion*/
 
-
+/*#region Service CSS */
 /**********************************/
 /*********** Service CSS **********/
 /**********************************/
@@ -725,8 +730,9 @@ a:focus {
 .experience .exp-col p {
     margin: 0;
 }
+/*#endregion*/
 
-
+/*#region Review CSS */
 /**********************************/
 /*********** Review CSS ***********/
 /**********************************/
@@ -861,8 +867,9 @@ a:focus {
 .review-slider.slick-slider {
     margin-bottom: 0;
 }
+/*#endregion*/
 
-/****/
+/*#region Certificate CSS */
 /**********************************/
 /********* Certificate CSS *********/
 /**********************************/
@@ -924,20 +931,6 @@ a:focus {
     color: #209cee;
 }
 
-.certi h2 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-
-/* .certi .exp-col h4 {
-    font-size: 14px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 5px;
-} */
-
 .certi h5 {
     font-size: 16px;
     font-weight: 600;
@@ -967,7 +960,9 @@ a:focus {
     margin-left: 10px;
     color: #000000;
 }
+/*#endregion*/
 
+/*#region Contact CSS */
 /**********************************/
 /*********** Contact CSS ***********/
 /**********************************/
@@ -1055,8 +1050,9 @@ a:focus {
     color: #209cee;
     background: #222222;
 }
+/*#endregion*/
 
-
+/*#region Footer CSS */
 /**********************************/
 /*********** Footer CSS ***********/
 /**********************************/
@@ -1104,3 +1100,4 @@ a:focus {
     position: absolute;
     right: 0px;
 }
+/*#endregion*/
